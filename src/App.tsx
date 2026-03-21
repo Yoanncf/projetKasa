@@ -1,13 +1,18 @@
-import './App.scss'
-import { Header } from './components/header/Header'
+import React from 'react';
+import './App.scss';
+import { Layout } from './components/layout/Layout';
+import { Route, Routes } from 'react-router-dom';
+import { Home } from './pages/home/Home';
 
-export const App = () => {
+
+export const App:React.FC = () => {
 
 
   return (
-    <>
-      <Header />
-      
-    </>
+   <Layout>
+    <Routes>
+      <Route path='/' element={<Home />} />
+    </Routes>
+   </Layout>
   )
 }
