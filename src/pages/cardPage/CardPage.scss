@@ -1,0 +1,138 @@
+.housing-info {
+    @media (min-width: 1150px) {
+        height: 12vh;
+    }
+}
+
+
+
+
+.title-and-location h2 {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+        width: 65%;
+    }
+}
+
+
+
+
+.title-and-location p {
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+        margin-top: 0;
+    }
+}
+
+
+
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2vw;
+
+    p {
+        height: min-content;
+        width: min-content;
+        background: #ff6060;
+        color: white;
+        border-radius: 10px;
+        padding: 5px 2vw;
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+        text-wrap: nowrap;
+    }
+}
+
+
+
+
+.host-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+
+    p {
+        height: fit-content;
+        width: 3vw;
+        color: #ff6060;
+        font-size: 18px;
+
+        @media (max-width: 768px) {
+            width: 5vw;
+            font-size: 16px;
+        }
+    }
+
+    img {
+        border-radius: 50%;
+        transform: scale(0.5) translate(50%);
+    }
+
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        transform: translateY(-9vh);
+    }
+}
+
+
+
+
+.host-info {
+    display: flex;
+    align-items: center;
+    width: min-content;
+    justify-content: flex-end;
+}
+
+
+
+
+.stars-rating {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 10px;
+
+    i {
+        margin: 0;
+        padding: 0;
+    }
+
+    .active-star {
+        color: #ff6060;
+    }
+
+    .disabled-star {
+        color: #e3e3e3;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+.housing-section .collapse-section {
+    @media (min-width: 768px) {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        .collapse-element {
+            width: 46%;
+        }
+    }
+}
