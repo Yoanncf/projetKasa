@@ -4,10 +4,9 @@
     }
 }
 
-
-
-
 .title-and-location h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #ff6060;
     font-size: 28px;
     font-weight: 500;
     text-align: left;
@@ -18,9 +17,6 @@
     }
 }
 
-
-
-
 .title-and-location p {
     margin-bottom: 0;
 
@@ -28,9 +24,6 @@
         margin-top: 0;
     }
 }
-
-
-
 
 .tags {
     display: flex;
@@ -50,9 +43,6 @@
         text-wrap: nowrap;
     }
 }
-
-
-
 
 .host-section {
     display: flex;
@@ -85,18 +75,12 @@
     }
 }
 
-
-
-
 .host-info {
     display: flex;
     align-items: center;
     width: min-content;
     justify-content: flex-end;
 }
-
-
-
 
 .stars-rating {
     display: flex;
@@ -121,9 +105,6 @@
         font-size: 1.3rem;
     }
 }
-
-
-
 
 .housing-section .collapse-section {
     @media (min-width: 768px) {

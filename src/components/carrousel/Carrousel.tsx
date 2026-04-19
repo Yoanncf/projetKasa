@@ -4,7 +4,7 @@ import cardsData from "../../data/logements.json";
 import "./Carrousel.scss";
 
 interface CarrouselProps {
-    id ?: string //Le composant reçois l'ID commme props 
+    id ?: string //Le composant reçois l'ID (optionel) commme props 
 }
 
 export const Carrousel: React.FC<CarrouselProps> = ({id}) => {
