@@ -11,7 +11,7 @@ export const CardPage: React.FC = () => {
     const { id } = useParams();
     const dataGroup = (cardsData as CardData[]).find(card => card.id === id);
     if (!dataGroup) {
-        return <Navigate to={""} />
+        return <Navigate to={"/error404"} />
     }
     return (
         <div className="housing-section">
