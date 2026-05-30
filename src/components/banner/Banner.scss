@@ -1,4 +1,4 @@
-.tagline {
+.banner {
     display: flex;
     align-items: center;
     width: 100%;
@@ -6,26 +6,23 @@
     margin-bottom: 15px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.6);
-    background-image: url(../../assets/Image_source_1.png);
     background-blend-mode: darken;
-    background-size: 190%;
+    background-size: cover;
     background-position: center;
-    object-fit: cover;
+    background-repeat: no-repeat;
 
     @media (min-width: 768px) {
         height: 20vh;
-        background-size: 100%;
     }
 
-    & p {
-        margin-left: 1rem;
+    & h1 {
+        margin: 0 0 0 1rem;
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         font-size: 24px;
         color: #fff;
         text-shadow: 1px 1px 3px black;
         width: 80%;
-        height: 48px;
 
         @media (min-width: 768px) {
             width: 100%;
